@@ -1,0 +1,76 @@
+# ==========================================
+# Node.js & Dependencies
+# ==========================================
+node_modules/
+jspm_packages/
+web_modules/
+
+# ==========================================
+# Claude & AI-Assisted Development
+# ==========================================
+# Local Claude configurations and personal overrides
+.claude/settings.json
+CLAUDE.md
+mcp-needs-auth-cache.json
+
+# If you use Claude Code tool caches locally
+tmpclaude-*
+.statusline_cache/
+
+# Optional: Uncomment if you work in a shared repo 
+# and want your personal CLAUDE.md guidelines ignored
+# CLAUDE.md
+
+# ==========================================
+# Environment Variables & Secrets (CRITICAL)
+# ==========================================
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+*.env
+*.pem
+
+# ==========================================
+# Build Outputs & Artifacts
+# ==========================================
+dist/
+build/
+out/
+.next/
+.nuxt/
+.cache/
+
+# ==========================================
+# Logs and Runtime Data
+# ==========================================
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+.pnpm-debug.log
+
+# ==========================================
+# Testing & Coverage
+# ==========================================
+coverage/
+.nyc_output/
+htmlcov/
+.playwright/
+
+# ==========================================
+# System & IDE Files
+# ==========================================
+.DS_Store
+Thumbs.db
+.vscode/
+!.vscode/extensions.json
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
