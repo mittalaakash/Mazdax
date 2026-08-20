@@ -10,6 +10,7 @@ web_modules/
 # ==========================================
 # Local Claude configurations and personal overrides
 .claude/settings.json
+.claude/scheduled_tasks.lock
 CLAUDE.md
 mcp-needs-auth-cache.json
 
@@ -28,6 +29,7 @@ tmpclaude-*
 .env.local
 .env.development.local
 .env.test.local
+.env.production
 .env.production.local
 *.env
 *.pem
